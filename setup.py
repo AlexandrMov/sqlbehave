@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name="sqlbehave",
-    version="0.0.2.dev1",
+    version="0.0.2.dev2",
     description='sqlbehave is behaviour-driven development based on Behave package',
     long_description=long_description,
     url="https://github.com/AlexandrMov/sqlbehave",

@@ -47,7 +47,6 @@ class TestModule:
     def run_predicate_from_file(self, predicate, step_type):
         predicate_template = "./features/steps/{step_type}*.sql"
         param_value_tmpl = "--!{param}={value}"
-        print(os.getcwd())
         predicate_format = predicate_template.format(step_type=step_type)
         
         params = dict()
